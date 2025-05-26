@@ -420,7 +420,7 @@ public class Dataset {
                 String line;
                 br.readLine();
                 while ((line = br.readLine()) != null) {
-                    String[] values = line.split(","); // Dividir por comas
+                    String[] values = line.split(",");
                     if (values.length == 4) {
                         String name = values[0];
                         String category = values[1];

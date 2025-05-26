@@ -1,8 +1,8 @@
 public class Game{
     String nombre;
     String categoria;
-    int precio;   // 1000-7000
-    int calidad; // del 1-100
+    int precio;
+    int calidad;
     Game(String nombre, String categoria, int precio, int calidad){
         this.nombre=nombre;
         this.categoria=categoria;
