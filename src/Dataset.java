@@ -162,13 +162,13 @@ public class Dataset {
         if(result.isEmpty()) {
             System.out.println("No se encontraron juegos con esa categoria");
         }
-        /*else {
+        else {
             System.out.println("Juegos encontrados:");
             for (Game game : result) {
                 System.out.println("Nombre: " + game.getNombre() + ", Categoria: " + game.getCategoria() +
                         ", Precio: " + game.getPrecio() + ", Calidad: " + game.getCalidad());
             }
-        } */
+        }
         return result;
     }
     public ArrayList<Game> getGameByQuality(int calidad) {
